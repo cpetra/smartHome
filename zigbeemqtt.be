@@ -118,8 +118,8 @@ class mqttDomoticz
     end
     # handle zigbee refined messages only
     def attributes_refined(event_type, frame, attr_list, idx)
-        print(frame)
-        print(attr_list)
+        #print(frame)
+        #print(attr_list)
         if attr_list != nil
             for n:0..(attr_list.size() - 1)
                 self.handle_zb_object(attr_list[n].key, attr_list[n].val, idx)
