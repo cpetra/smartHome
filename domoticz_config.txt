@@ -1,0 +1,2 @@
+405, 0x927f, OccupiedHeatingSetpoint, EF00/0204
+404, 0x927f, LocalTemperature
